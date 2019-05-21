@@ -2,7 +2,7 @@
 
         <!-- Offcanvas Menu Start -->
         <div class="offcanvas-mobile-menu d-block d-lg-none" id="offcanvas-mobile-menu">
-            <a href="javascript:void(0)" class="offcanvas-menu-close" id="offcanvas-menu-close-trigger">
+            <a href="<?php echo base_url() ?>template/javascript:void(0)" class="offcanvas-menu-close" id="offcanvas-menu-close-trigger">
                 <i class="fa fa-times"></i>
             </a>
 
@@ -120,8 +120,8 @@
                                 </li>
                                 <li class="menu-item-has-children"><a href="#">LANGUAGE: EN-GB </a>
                                     <ul class="submenu2">
-                                        <li><a href="javascript:void(0)"><img src="./assets/images/icons/en-gb.png" alt=""> English</a></li>
-                                        <li><a href="javascript:void(0)"><img src="./assets/images/icons/de-de.png" alt=""> Germany</a></li>
+                                        <li><a href="javascript:void(0)"><img src="<?php echo base_url() ?>template/./assets/images/icons/en-gb.png" alt=""> English</a></li>
+                                        <li><a href="javascript:void(0)"><img src="<?php echo base_url() ?>template/./assets/images/icons/de-de.png" alt=""> Germany</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -180,7 +180,7 @@
             <div class="hero-slider section">
 
                 <!--Hero Item start-->
-                <div class="hero-item large-height bg-image" data-bg="assets/images/hero/hero-3.jpg">
+                <div class="hero-item large-height bg-image" data-bg="<?php echo base_url() ?>template/assets/images/hero/hero-3.jpg">
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
@@ -237,7 +237,7 @@
                         <div class="single-banner-item mb-30">
                             <div class="banner-image">
                                 <a href="shop.html">
-                                    <img src="./assets/images/banner/banner4.jpg" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/banner/banner4.jpg" alt="">
                                 </a>
                             </div>
                             <div class="banner-content tr-right">
@@ -252,7 +252,7 @@
                         <div class="single-banner-item mb-30">
                             <div class="banner-image">
                                 <a href="shop-left-sidebar.html">
-                                    <img src="./assets/images/banner/banner5.jpg" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/banner/banner5.jpg" alt="">
                                 </a>
                             </div>
                             <div class="banner-content tr-right">
@@ -267,7 +267,7 @@
                         <div class="single-banner-item mb-30">
                             <div class="banner-image">
                                 <a href="shop.html">
-                                    <img src="./assets/images/banner/banner6.jpg" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/banner/banner6.jpg" alt="">
                                 </a>
                             </div>
                             <div class="banner-content tl-left color-white">
@@ -282,7 +282,7 @@
                         <div class="single-banner-item mb-30">
                             <div class="banner-image">
                                 <a href="shop-left-sidebar.html">
-                                    <img src="./assets/images/banner/banner7.jpg" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/banner/banner7.jpg" alt="">
                                 </a>
                             </div>
                             <div class="banner-content tl-left">
@@ -325,8 +325,8 @@
                                             <span>-20%</span>
                                         </div>
                                         <a href="single-product.html">
-                                            <img src="./assets/images/product/product-1.jpg" class="img-fluid" alt="">
-                                            <img src="./assets/images/product/product-2.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-1.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-2.jpg" class="img-fluid" alt="">
                                         </a>
 
                                         <div class="product-action">
@@ -353,8 +353,8 @@
                                             <span>-20%</span>
                                         </div>
                                         <a href="single-product.html">
-                                            <img src="./assets/images/product/product-2.jpg" class="img-fluid" alt="">
-                                            <img src="./assets/images/product/product-3.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-2.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-3.jpg" class="img-fluid" alt="">
                                         </a>
 
                                         <div class="product-action">
@@ -381,8 +381,8 @@
                                             <span>-20%</span>
                                         </div>
                                         <a href="single-product.html">
-                                            <img src="./assets/images/product/product-4.jpg" class="img-fluid" alt="">
-                                            <img src="./assets/images/product/product-1.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-4.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-1.jpg" class="img-fluid" alt="">
                                         </a>
 
                                         <div class="product-action">
@@ -406,7 +406,7 @@
                                 <div class="single-grid-product mb-40">
                                     <div class="product-image">
                                         <a href="single-product.html">
-                                            <img src="./assets/images/product/product-3.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-3.jpg" class="img-fluid" alt="">
                                         </a>
 
                                         <div class="product-action">
@@ -433,8 +433,8 @@
                                             <span class="sale">Sale</span>
                                         </div>
                                         <a href="single-product.html">
-                                            <img src="./assets/images/product/product-5.jpg" class="img-fluid" alt="">
-                                            <img src="./assets/images/product/product-2.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-5.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-2.jpg" class="img-fluid" alt="">
                                         </a>
 
                                         <div class="product-action">
@@ -461,8 +461,8 @@
                                             <span class="sale">New</span>
                                         </div>
                                         <a href="single-product.html">
-                                            <img src="./assets/images/product/product-6.jpg" class="img-fluid" alt="">
-                                            <img src="./assets/images/product/product-4.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-6.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-4.jpg" class="img-fluid" alt="">
                                         </a>
 
                                         <div class="product-action">
@@ -489,7 +489,7 @@
                                             <span>-20%</span>
                                         </div>
                                         <a href="single-product.html">
-                                            <img src="./assets/images/product/product-7.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-7.jpg" class="img-fluid" alt="">
                                         </a>
 
                                         <div class="product-action">
@@ -516,8 +516,8 @@
                                             <span>-29%</span>
                                         </div>
                                         <a href="single-product.html">
-                                            <img src="./assets/images/product/product-8.jpg" class="img-fluid" alt="">
-                                            <img src="./assets/images/product/product-2.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-8.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-2.jpg" class="img-fluid" alt="">
                                         </a>
 
                                         <div class="product-action">
@@ -544,8 +544,8 @@
                                 <div class="single-grid-product mb-40">
                                     <div class="product-image">
                                         <a href="single-product.html">
-                                            <img src="./assets/images/product/product-9.jpg" class="img-fluid" alt="">
-                                            <img src="./assets/images/product/product-10.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-9.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-10.jpg" class="img-fluid" alt="">
                                         </a>
 
                                         <div class="product-action">
@@ -572,8 +572,8 @@
                                             <span class="sale">Sale</span>
                                         </div>
                                         <a href="single-product.html">
-                                            <img src="./assets/images/product/product-11.jpg" class="img-fluid" alt="">
-                                            <img src="./assets/images/product/product-12.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-11.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-12.jpg" class="img-fluid" alt="">
                                         </a>
 
                                         <div class="product-action">
@@ -597,8 +597,8 @@
                                 <div class="single-grid-product mb-40">
                                     <div class="product-image">
                                         <a href="single-product.html">
-                                            <img src="./assets/images/product/product-10.jpg" class="img-fluid" alt="">
-                                            <img src="./assets/images/product/product-13.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-10.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-13.jpg" class="img-fluid" alt="">
                                         </a>
 
                                         <div class="product-action">
@@ -622,7 +622,7 @@
                                 <div class="single-grid-product mb-40">
                                     <div class="product-image">
                                         <a href="single-product.html">
-                                            <img src="./assets/images/product/product-14.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-14.jpg" class="img-fluid" alt="">
                                         </a>
 
                                         <div class="product-action">
@@ -649,8 +649,8 @@
                                             <span class="sale">New</span>
                                         </div>
                                         <a href="single-product.html">
-                                            <img src="./assets/images/product/product-14.jpg" class="img-fluid" alt="">
-                                            <img src="./assets/images/product/product-13.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-14.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-13.jpg" class="img-fluid" alt="">
                                         </a>
 
                                         <div class="product-action">
@@ -674,8 +674,8 @@
                                 <div class="single-grid-product mb-40">
                                     <div class="product-image">
                                         <a href="single-product.html">
-                                            <img src="./assets/images/product/product-15.jpg" class="img-fluid" alt="">
-                                            <img src="./assets/images/product/product-16.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-15.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-16.jpg" class="img-fluid" alt="">
                                         </a>
 
                                         <div class="product-action">
@@ -699,7 +699,7 @@
                                 <div class="single-grid-product mb-40">
                                     <div class="product-image">
                                         <a href="single-product.html">
-                                            <img src="./assets/images/product/product-10.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-10.jpg" class="img-fluid" alt="">
                                         </a>
 
                                         <div class="product-action">
@@ -723,8 +723,8 @@
                                 <div class="single-grid-product mb-40">
                                     <div class="product-image">
                                         <a href="single-product.html">
-                                            <img src="./assets/images/product/product-16.jpg" class="img-fluid" alt="">
-                                            <img src="./assets/images/product/product-2.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-16.jpg" class="img-fluid" alt="">
+                                            <img src="<?php echo base_url() ?>template/./assets/images/product/product-2.jpg" class="img-fluid" alt="">
                                         </a>
 
                                         <div class="product-action">
@@ -763,7 +763,7 @@
                         <div class="single-banner-item mb-30">
                             <div class="banner-image">
                                 <a href="shop.html">
-                                    <img src="./assets/images/banner/banner8.jpg" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/banner/banner8.jpg" alt="">
                                 </a>
                             </div>
                             <div class="discount-banner-content">
@@ -774,7 +774,7 @@
                     </div>
                     <div class="col-lg-8 col-md-12 col-sm-12">
                         <!-- Single Banner Start -->
-                        <div class="single-banner-item mb-30 bg-image" data-bg="./assets/images/banner/banner9.jpg">
+                        <div class="single-banner-item mb-30 bg-image" data-bg="<?php echo base_url() ?>template/./assets/images/banner/banner9.jpg">
                             <div class="sp-banner-content content-right">
                                 <span class="normat-text">UP TO 50%</span>
                                 <h2 class="title">TV Cabinet</h2>
@@ -802,7 +802,7 @@
                         <!-- Single Feature Start -->
                         <div class="single-feature mb-30">
                             <div class="feature-image">
-                                <img src="./assets/images/icons/feature-1.png" class="img-fluid" alt="">
+                                <img src="<?php echo base_url() ?>template/./assets/images/icons/feature-1.png" class="img-fluid" alt="">
                             </div>
                             <div class="feature-content">
                                 <h4 class="title">Free home delivery</h4>
@@ -815,7 +815,7 @@
                         <!-- Single Feature Start -->
                         <div class="single-feature mb-30">
                             <div class="feature-image">
-                                <img src="./assets/images/icons/feature-2.png" class="img-fluid" alt="">
+                                <img src="<?php echo base_url() ?>template/./assets/images/icons/feature-2.png" class="img-fluid" alt="">
                             </div>
                             <div class="feature-content">
                                 <h4 class="title">Quality Products</h4>
@@ -828,7 +828,7 @@
                         <!-- Single Feature Start -->
                         <div class="single-feature mb-30">
                             <div class="feature-image">
-                                <img src="./assets/images/icons/feature-3.png" class="img-fluid" alt="">
+                                <img src="<?php echo base_url() ?>template/./assets/images/icons/feature-3.png" class="img-fluid" alt="">
                             </div>
                             <div class="feature-content">
                                 <h4 class="title">3 Days Return</h4>
@@ -862,7 +862,7 @@
 
                     <div class="blog col-lg-4 col-md-6">
                         <div class="blog-inner mb-30">
-                            <div class="blog-media"><a href="blog-details.html" class="image"><img src="assets/images/blog/blog-1.jpg" alt=""></a></div>
+                            <div class="blog-media"><a href="blog-details.html" class="image"><img src="<?php echo base_url() ?>template/assets/images/blog/blog-1.jpg" alt=""></a></div>
                             <div class="content">
                                 <ul class="meta">
                                     <li>08 April, 2019</li>
@@ -878,7 +878,7 @@
 
                     <div class="blog col-lg-4 col-md-6">
                         <div class="blog-inner mb-30">
-                            <div class="blog-media"><a href="blog-details.html" class="image"><img src="assets/images/blog/blog-2.jpg" alt=""></a></div>
+                            <div class="blog-media"><a href="blog-details.html" class="image"><img src="<?php echo base_url() ?>template/assets/images/blog/blog-2.jpg" alt=""></a></div>
                             <div class="content">
                                 <ul class="meta">
                                     <li>06 April, 2019</li>
@@ -894,7 +894,7 @@
 
                     <div class="blog col-lg-4 col-md-6">
                         <div class="blog-inner mb-30">
-                            <div class="blog-media"><a href="blog-details.html" class="image"><img src="assets/images/blog/blog-3.jpg" alt=""></a></div>
+                            <div class="blog-media"><a href="blog-details.html" class="image"><img src="<?php echo base_url() ?>template/assets/images/blog/blog-3.jpg" alt=""></a></div>
                             <div class="content">
                                 <ul class="meta">
                                     <li>02 April, 2019</li>
@@ -929,7 +929,7 @@
                                                 <div class="row align-items-center">
                                                     <div class="col-md-5">
                                                         <div class="testimonial-image">
-                                                            <img src="./assets/images/testimonial/testimonial-2.png" alt="">
+                                                            <img src="<?php echo base_url() ?>template/./assets/images/testimonial/testimonial-2.png" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-7">
@@ -937,7 +937,7 @@
                                                             <div class="testimonial-inner">
                                                                 <div class="testimonial-author">
                                                                     <div class="author-thumb">
-                                                                        <img src="assets/images/author/author-1.png" alt="">
+                                                                        <img src="<?php echo base_url() ?>template/assets/images/author/author-1.png" alt="">
                                                                     </div>
                                                                     <div class="author-info">
                                                                         <h4>Zeniyea Henderson</h4>
@@ -958,7 +958,7 @@
                                                 <div class="row align-items-center">
                                                     <div class="col-md-5">
                                                         <div class="testimonial-image">
-                                                            <img src="./assets/images/testimonial/testimonial-1.png" alt="">
+                                                            <img src="<?php echo base_url() ?>template/./assets/images/testimonial/testimonial-1.png" alt="">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-7">
@@ -966,7 +966,7 @@
                                                             <div class="testimonial-inner">
                                                                 <div class="testimonial-author">
                                                                     <div class="author-thumb">
-                                                                        <img src="assets/images/author/author-1.png" alt="">
+                                                                        <img src="<?php echo base_url() ?>template/assets/images/author/author-1.png" alt="">
                                                                     </div>
                                                                     <div class="author-info">
                                                                         <h4>Zeniyea Henderson</h4>
@@ -1005,7 +1005,7 @@
                             <!-- Single Brand Start -->
                             <div class="single-brand">
                                 <div class="brand-image">
-                                    <img src="./assets/images/brands/brand-1.png" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/brands/brand-1.png" alt="">
                                 </div>
                             </div>
                             <!-- Single Brand End -->
@@ -1014,7 +1014,7 @@
                             <!-- Single Brand Start -->
                             <div class="single-brand">
                                 <div class="brand-image">
-                                    <img src="./assets/images/brands/brand-2.png" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/brands/brand-2.png" alt="">
                                 </div>
                             </div>
                             <!-- Single Brand End -->
@@ -1023,7 +1023,7 @@
                             <!-- Single Brand Start -->
                             <div class="single-brand">
                                 <div class="brand-image">
-                                    <img src="./assets/images/brands/brand-3.png" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/brands/brand-3.png" alt="">
                                 </div>
                             </div>
                             <!-- Single Brand End -->
@@ -1032,7 +1032,7 @@
                             <!-- Single Brand Start -->
                             <div class="single-brand">
                                 <div class="brand-image">
-                                    <img src="./assets/images/brands/brand-4.png" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/brands/brand-4.png" alt="">
                                 </div>
                             </div>
                             <!-- Single Brand End -->
@@ -1041,7 +1041,7 @@
                             <!-- Single Brand Start -->
                             <div class="single-brand">
                                 <div class="brand-image">
-                                    <img src="./assets/images/brands/brand-5.png" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/brands/brand-5.png" alt="">
                                 </div>
                             </div>
                             <!-- Single Brand End -->
@@ -1050,7 +1050,7 @@
                             <!-- Single Brand Start -->
                             <div class="single-brand">
                                 <div class="brand-image">
-                                    <img src="./assets/images/brands/brand-1.png" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/brands/brand-1.png" alt="">
                                 </div>
                             </div>
                             <!-- Single Brand End -->
@@ -1059,7 +1059,7 @@
                             <!-- Single Brand Start -->
                             <div class="single-brand">
                                 <div class="brand-image">
-                                    <img src="./assets/images/brands/brand-2.png" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/brands/brand-2.png" alt="">
                                 </div>
                             </div>
                             <!-- Single Brand End -->
@@ -1068,7 +1068,7 @@
                             <!-- Single Brand Start -->
                             <div class="single-brand">
                                 <div class="brand-image">
-                                    <img src="./assets/images/brands/brand-3.png" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/brands/brand-3.png" alt="">
                                 </div>
                             </div>
                             <!-- Single Brand End -->
@@ -1077,7 +1077,7 @@
                             <!-- Single Brand Start -->
                             <div class="single-brand">
                                 <div class="brand-image">
-                                    <img src="./assets/images/brands/brand-4.png" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/brands/brand-4.png" alt="">
                                 </div>
                             </div>
                             <!-- Single Brand End -->
@@ -1086,7 +1086,7 @@
                             <!-- Single Brand Start -->
                             <div class="single-brand">
                                 <div class="brand-image">
-                                    <img src="./assets/images/brands/brand-5.png" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/brands/brand-5.png" alt="">
                                 </div>
                             </div>
                             <!-- Single Brand End -->

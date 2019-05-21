@@ -63,12 +63,12 @@
                             <div class="row justify-content-between align-items-center">
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="copyright text-left">
-                                        <p>Copyright &copy;2019 <a href="#">nelson</a>. All rights reserved.</p>
+                                        <p>Copyright &copy;2019 <a href="#">Rakata</a>. All rights reserved.</p>
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-12">
                                     <div class="payment-getway text-lg-right text-center">
-                                        <img src="./assets/images/payment.png" alt="">
+                                        <img src="<?php echo base_url() ?>template/./assets/images/payment.png" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -97,32 +97,32 @@
                                     <div class="product-details-left">
                                         <div class="product-details-images">
                                             <div class="lg-image">
-                                                <img src="./assets/images/product/large-product/l-product-1.jpg" alt="">
-                                                <a href="./assets/images/product/large-product/l-product-1.jpg" class="popup-img venobox" data-gall="myGallery"><i class="fa fa-expand"></i></a>
+                                                <img src="<?php echo base_url() ?>template/./assets/images/product/large-product/l-product-1.jpg" alt="">
+                                                <a href="<?php echo base_url() ?>template/./assets/images/product/large-product/l-product-1.jpg" class="popup-img venobox" data-gall="myGallery"><i class="fa fa-expand"></i></a>
                                             </div>
                                             <div class="lg-image">
-                                                <img src="./assets/images/product/large-product/l-product-2.jpg" alt="">
-                                                <a href="./assets/images/product/large-product/l-product-2.jpg" class="popup-img venobox" data-gall="myGallery"><i class="fa fa-expand"></i></a>
+                                                <img src="<?php echo base_url() ?>template/./assets/images/product/large-product/l-product-2.jpg" alt="">
+                                                <a href="<?php echo base_url() ?>template/./assets/images/product/large-product/l-product-2.jpg" class="popup-img venobox" data-gall="myGallery"><i class="fa fa-expand"></i></a>
                                             </div>
                                             <div class="lg-image">
-                                                <img src="./assets/images/product/large-product/l-product-3.jpg" alt="">
-                                                <a href="./assets/images/product/large-product/l-product-3.jpg" class="popup-img venobox" data-gall="myGallery"><i class="fa fa-expand"></i></a>
+                                                <img src="<?php echo base_url() ?>template/./assets/images/product/large-product/l-product-3.jpg" alt="">
+                                                <a href="<?php echo base_url() ?>template/./assets/images/product/large-product/l-product-3.jpg" class="popup-img venobox" data-gall="myGallery"><i class="fa fa-expand"></i></a>
                                             </div>
                                             <div class="lg-image">
-                                                <img src="./assets/images/product/large-product/l-product-4.jpg" alt="">
-                                                <a href="./assets/images/product/large-product/l-product-4.jpg" class="popup-img venobox" data-gall="myGallery"><i class="fa fa-expand"></i></a>
+                                                <img src="<?php echo base_url() ?>template/./assets/images/product/large-product/l-product-4.jpg" alt="">
+                                                <a href="<?php echo base_url() ?>template/./assets/images/product/large-product/l-product-4.jpg" class="popup-img venobox" data-gall="myGallery"><i class="fa fa-expand"></i></a>
                                             </div>
                                             <div class="lg-image">
-                                                <img src="./assets/images/product/large-product/l-product-5.jpg" alt="">
-                                                <a href="./assets/images/product/large-product/l-product-5.jpg" class="popup-img venobox" data-gall="myGallery"><i class="fa fa-expand"></i></a>
+                                                <img src="<?php echo base_url() ?>template/./assets/images/product/large-product/l-product-5.jpg" alt="">
+                                                <a href="<?php echo base_url() ?>template/./assets/images/product/large-product/l-product-5.jpg" class="popup-img venobox" data-gall="myGallery"><i class="fa fa-expand"></i></a>
                                             </div>
                                         </div>
                                         <div class="product-details-thumbs">
-                                            <div class="sm-image"><img src="./assets/images/product/small-product/s-product-1.jpg" alt="product image thumb"></div>
-                                            <div class="sm-image"><img src="./assets/images/product/small-product/s-product-2.jpg" alt="product image thumb"></div>
-                                            <div class="sm-image"><img src="./assets/images/product/small-product/s-product-3.jpg" alt="product image thumb"></div>
-                                            <div class="sm-image"><img src="./assets/images/product/small-product/s-product-4.jpg" alt="product image thumb"></div>
-                                            <div class="sm-image"><img src="./assets/images/product/small-product/s-product-5.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="<?php echo base_url() ?>template/./assets/images/product/small-product/s-product-1.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="<?php echo base_url() ?>template/./assets/images/product/small-product/s-product-2.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="<?php echo base_url() ?>template/./assets/images/product/small-product/s-product-3.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="<?php echo base_url() ?>template/./assets/images/product/small-product/s-product-4.jpg" alt="product image thumb"></div>
+                                            <div class="sm-image"><img src="<?php echo base_url() ?>template/./assets/images/product/small-product/s-product-5.jpg" alt="product image thumb"></div>
                                         </div>
                                     </div>
                                     <!--Product Details Left -->
@@ -200,12 +200,12 @@
     <!-- Placed js at the end of the document so the pages load faster -->
 
     <!-- All jquery file included here -->
-    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="https://maps.google.com/maps/api/js?sensor=false&libraries=geometry&v=3.22&key=AIzaSyDAq7MrCR1A2qIShmjbtLHSKjcEIEBEEwM"></script>
-    <script src="assets/js/vendor/popper.min.js"></script>
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-    <script src="assets/js/plugins/plugins.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="<?php echo base_url() ?>template/assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="<?php echo base_url() ?>template/https://maps.google.com/maps/api/js?sensor=false&libraries=geometry&v=3.22&key=AIzaSyDAq7MrCR1A2qIShmjbtLHSKjcEIEBEEwM"></script>
+    <script src="<?php echo base_url() ?>template/assets/js/vendor/popper.min.js"></script>
+    <script src="<?php echo base_url() ?>template/assets/js/vendor/bootstrap.min.js"></script>
+    <script src="<?php echo base_url() ?>template/assets/js/plugins/plugins.js"></script>
+    <script src="<?php echo base_url() ?>template/assets/js/main.js"></script>
 
 </body>
 

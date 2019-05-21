@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Home 02 || nelson</title>
+    <title>Rumah Rakata</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Place favicon.ico in the root directory -->
-    <link href="assets/images/favicon.ico" type="img/x-icon" rel="shortcut icon">
+    <link href="<?php echo base_url() ?>template/assets/images/favicon.ico" type="img/x-icon" rel="shortcut icon">
     <!-- All css files are included here. -->
     <link rel="stylesheet" href="<?php echo base_url() ?>template/assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>template/assets/css/vendor/iconfont.min.css">
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="<?php echo base_url() ?>template/assets/css/plugins/plugins.css">
     <link rel="stylesheet" href="<?php echo base_url() ?>template/assets/css/style.css">
     <!-- Modernizr JS -->
-    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="<?php echo base_url() ?>template/assets/js/vendor/modernizr-2.8.3.min.js"></script>
 </head>
 
 <body>
@@ -133,8 +133,8 @@
                                             <!--Language Currency Start-->
                                             <li><a href="#">language</a>
                                                 <ul>
-                                                    <li class="active"><a href="#"><img src="./assets/images/icons/en-gb.png" alt="">English</a></li>
-                                                    <li><a href="#"><img src="./assets/images/icons/de-de.png" alt="">French</a></li>
+                                                    <li class="active"><a href="#"><img src="<?php echo base_url() ?>template/./assets/images/icons/en-gb.png" alt="">English</a></li>
+                                                    <li><a href="#"><img src="<?php echo base_url() ?>template/./assets/images/icons/de-de.png" alt="">French</a></li>
                                                 </ul>
                                             </li>
                                             <!--Language Currency End-->
@@ -166,7 +166,7 @@
                                             <ul class="cart-items">
                                                 <li class="single-cart-item">
                                                     <div class="cart-img">
-                                                        <a href="cart.html"><img src="./assets/images/cart/cart1.jpg" alt=""></a>
+                                                        <a href="cart.html"><img src="<?php echo base_url() ?>template/./assets/images/cart/cart1.jpg" alt=""></a>
                                                     </div>
                                                     <div class="cart-content">
                                                         <h5 class="product-name"><a href="single-product.html">Dell Inspiron 24</a></h5>
@@ -179,7 +179,7 @@
                                                 </li>
                                                 <li class="single-cart-item">
                                                     <div class="cart-img">
-                                                        <a href="cart.html"><img src="./assets/images/cart/cart2.jpg" alt=""></a>
+                                                        <a href="cart.html"><img src="<?php echo base_url() ?>template/./assets/images/cart/cart2.jpg" alt=""></a>
                                                     </div>
                                                     <div class="cart-content">
                                                         <h5 class="product-name"><a href="single-product.html">Lenovo Ideacentre 300</a></h5>
@@ -225,7 +225,7 @@
                                     <div class="col-6 col-md-6">
                                         <div class="header-logo">
                                             <a href="index.html">
-                                                <img src="./assets/images/logo.png" class="img-fluid" alt="">
+                                                <img src="<?php echo base_url() ?>template/./assets/images/logo.png" class="img-fluid" alt="">
                                             </a>
                                         </div>
                                     </div>

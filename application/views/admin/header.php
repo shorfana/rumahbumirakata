@@ -7,7 +7,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Home - Ninja Admin Template</title>
+	<title>Admin Rakata</title>
 
 	<!-- Main Styles -->
 	<link rel="stylesheet" href="<?php echo base_url() ?>admin_template/assets/styles/style-horizontal.min.css">
@@ -32,7 +32,7 @@
 	<link rel="stylesheet" href="<?php echo base_url() ?>admin_template/assets/plugin/fullcalendar/fullcalendar.print.css" media='print'>
 
 	<!-- Color Picker -->
-	<link rel="stylesheet" href="assets/color-switcher/color-switcher.min.css">
+	<link rel="stylesheet" href="<?php echo base_url() ?>admin_template/assets/color-switcher/color-switcher.min.css">
 </head>
 
 <body>
@@ -40,7 +40,7 @@
 	<div class="header-top">
 		<div class="container">
 			<div class="pull-left">
-				<a href="index.html" class="logo">NinjaTeam</a>
+				<a href="index.html" class="logo">RakataAdmin</a>
 			</div>
 			<!-- /.pull-left -->
 			<div class="pull-right">
@@ -251,7 +251,7 @@
 				<div class="ico-item">
 					<a href="#" class="ico-item fa fa-user js__toggle_open" data-target="#user-status"></a>
 					<div id="user-status" class="user-status js__toggle">
-						<a href="#" class="avatar"><img src="http://placehold.it/80x80" alt=""><span class="status online"></span></a>
+						<a href="#" class="avatar"><img src="<?php echo base_url() ?>admin_template/http://placehold.it/80x80" alt=""><span class="status online"></span></a>
 						<h5 class="name"><a href="profile.html">Emily Stanley</a></h5>
 						<h5 class="position">Administrator</h5>
 						<!-- /.name -->
