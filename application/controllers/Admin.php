@@ -152,5 +152,36 @@ class Admin extends CI_Controller {
     }
 
 
+    public function rumahBlokA(){
+    	$blokA['rumah'] = $this->Dbs->blokA();
+    	$this->load->view('admin/header');
+		$this->load->view('admin/data_blok_A',$blokA);
+		$this->load->view('admin/footer');
+
+    }
+
+    public function rumahBlokB(){
+    	$blokB['rumah'] = $this->Dbs->blokB();
+    	$this->load->view('admin/header');
+		$this->load->view('admin/data_blok_B',$blokB);
+		$this->load->view('admin/footer');
+
+    }
+    public function rumahBlokC(){
+    	$blokC['rumah'] = $this->Dbs->blokC();
+    	$this->load->view('admin/header');
+		$this->load->view('admin/data_blok_C',$blokC);
+		$this->load->view('admin/footer');
+
+    }
+
+
+    public function rumahBlokD(){
+    	$blokD['rumah'] = $this->Dbs->blokD();
+    	$this->load->view('admin/header');
+		$this->load->view('admin/data_blok_D',$blokD);
+		$this->load->view('admin/footer');
+
+    }
 
 }

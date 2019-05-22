@@ -115,10 +115,10 @@
 					<li class="has-sub">
 						<a href="#"><i class="ico fa fa-th-large"></i><span>Blok Rumah</span></a>
 						<ul class="sub-menu single">
-							<li><a href="form-elements.html">A</a></li>
-							<li><a href="form-advanced.html">B</a></li>
-							<li><a href="form-fileupload.html">C</a></li>
-							<li><a href="form-validation.html">D</a></li>
+							<li><a href="<?php echo base_url() ?>admin/rumahBlokA">A</a></li>
+							<li><a href="<?php echo base_url() ?>admin/rumahBlokB">B</a></li>
+							<li><a href="<?php echo base_url() ?>admin/rumahBlokC">C</a></li>
+							<li><a href="<?php echo base_url() ?>admin/rumahBlokD">D</a></li>
 						</ul>
 						<!-- /.sub-menu single -->
 					</li>

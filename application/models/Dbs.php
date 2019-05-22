@@ -58,5 +58,28 @@ class Dbs extends CI_Model
 	$this->db->delete($table);
 	}
 
+	function blokA(){
+		$dml = "SELECT * FROM rumah WHERE blok = 'A'";
+		$query = $this->db->query($dml)->result();
+		return $query;
+	}
+
+	function blokB(){
+		$dml = "SELECT * FROM rumah WHERE blok = 'B'";
+		$query = $this->db->query($dml)->result();
+		return $query;
+	}
+	function blokC(){
+		$dml = "SELECT * FROM rumah WHERE blok = 'C'";
+		$query = $this->db->query($dml)->result();
+		return $query;
+	}
+	function blokD(){
+		$dml = "SELECT * FROM rumah WHERE blok = 'D'";
+		$query = $this->db->query($dml)->result();
+		return $query;
+	}		
+
+
 }	 
  ?>
