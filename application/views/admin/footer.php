@@ -1,7 +1,7 @@
 <!-- /.row -->		
 		<footer class="footer">
 			<ul class="list-inline">
-				<li>2016 © NinjaAdmin.</li>
+				<li>2019 © PT.Rakata Realtindo Cilegon-Banten.</li>
 				<li><a href="#">Privacy</a></li>
 				<li><a href="#">Terms</a></li>
 				<li><a href="#">Help</a></li>
@@ -19,7 +19,7 @@
 	================================================== -->
 	<!-- Placed at the end of the document so the pages load faster -->
 	<script src="<?php echo base_url() ?>admin_template/assets/scripts/jquery.min.js"></script>
-	<script src=<?php echo base_url() ?>admin_template/"assets/scripts/modernizr.min.js"></script>
+	<script src="<?php echo base_url() ?>admin_template/assets/scripts/modernizr.min.js"></script>
 	<script src="<?php echo base_url() ?>admin_template/assets/plugin/bootstrap/js/bootstrap.min.js"></script>
 	<script src="<?php echo base_url() ?>admin_template/assets/plugin/mCustomScrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
 	<script src="<?php echo base_url() ?>admin_template/assets/plugin/nprogress/nprogress.js"></script>
@@ -46,5 +46,7 @@
 	<script src="<?php echo base_url() ?>admin_template/assets/scripts/main.min.js"></script>
 	<script src="<?php echo base_url() ?>admin_template/assets/scripts/horizontal-menu.min.js"></script>
 	<script src="<?php echo base_url() ?>admin_template/assets/color-switcher/color-switcher.min.js"></script>
+	<script src="<?php echo base_url() ?>admin_template/assets/plugin/dropify/js/dropify.min.js"></script>
+	<script src="<?php echo base_url() ?>admin_template/assets/scripts/fileUpload.demo.min.js"></script>
 </body>
 </html>
