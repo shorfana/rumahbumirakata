@@ -30,6 +30,8 @@
 	<!-- FullCalendar -->
 	<link rel="stylesheet" href="<?php echo base_url() ?>admin_template/assets/plugin/fullcalendar/fullcalendar.min.css">
 	<link rel="stylesheet" href="<?php echo base_url() ?>admin_template/assets/plugin/fullcalendar/fullcalendar.print.css" media='print'>
+	<link rel="stylesheet" href="<?php echo base_url() ?>admin_template/assets/plugin/select2/css/select2.min.css">
+	<link rel="stylesheet" href="<?php echo base_url() ?>admin_template/assets/plugin/dropify/css/dropify.min.css">
 
 	<!-- Color Picker -->
 	<link rel="stylesheet" href="<?php echo base_url() ?>admin_template/assets/color-switcher/color-switcher.min.css">
@@ -53,105 +55,6 @@
 					<form action="#" id="searchform-header" class="searchform js__toggle"><input type="search" placeholder="Search..." class="input-search"><button class="fa fa-search button-search" type="submit"></button></form>
 					<!-- /.searchform -->
 				</div>
-				<!-- /.ico-item -->
-				<div class="ico-item fa fa-arrows-alt js__full_screen"></div>
-				<!-- /.ico-item fa fa-fa-arrows-alt -->
-				<div class="ico-item toggle-hover js__drop_down ">
-					<span class="fa fa-th js__drop_down_button"></span>
-					<div class="toggle-content">
-						<ul>
-							<li><a href="#"><i class="fa fa-github"></i><span class="txt">Github</span></a></li>
-							<li><a href="#"><i class="fa fa-bitbucket"></i><span class="txt">Bitbucket</span></a></li>
-							<li><a href="#"><i class="fa fa-slack"></i><span class="txt">Slack</span></a></li>
-							<li><a href="#"><i class="fa fa-dribbble"></i><span class="txt">Dribbble</span></a></li>
-							<li><a href="#"><i class="fa fa-amazon"></i><span class="txt">Amazon</span></a></li>
-							<li><a href="#"><i class="fa fa-dropbox"></i><span class="txt">Dropbox</span></a></li>
-						</ul>
-						<a href="#" class="read-more">More</a>
-					</div>
-					<!-- /.toggle-content -->
-				</div>
-				<!-- /.ico-item -->
-				<div class="ico-item">
-					<a href="#" class="ico-item fa fa-envelope notice-alarm js__toggle_open" data-target="#message-popup"></a>
-					<div id="message-popup" class="notice-popup js__toggle" data-space="55">
-						<h2 class="popup-title">Recent Messages<a href="#" class="pull-right text-danger">New message</a></h2>
-						<!-- /.popup-title -->
-						<div class="content">
-							<ul class="notice-list">
-								<li>
-									<a href="#">
-										<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
-										<span class="name">John Doe</span>
-										<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
-										<span class="time">10 min</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
-										<span class="name">Harry Halen</span>
-										<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
-										<span class="time">15 min</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
-										<span class="name">Thomas Taylor</span>
-										<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
-										<span class="time">30 min</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="avatar"><img src="http://placehold.it/128x128" alt=""></span>
-										<span class="name">Jennifer</span>
-										<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
-										<span class="time">45 min</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
-										<span class="name">Helen Candy</span>
-										<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
-										<span class="time">45 min</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="avatar"><img src="http://placehold.it/128x128" alt=""></span>
-										<span class="name">Anna Cavan</span>
-										<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
-										<span class="time">1 hour ago</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="avatar bg-success"><i class="fa fa-user"></i></span>
-										<span class="name">Jenny Betty</span>
-										<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
-										<span class="time">1 day ago</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="avatar"><img src="http://placehold.it/128x128" alt=""></span>
-										<span class="name">Denise Peterson</span>
-										<span class="desc">Amet odio neque nobis consequuntur consequatur a quae, impedit facere repellat voluptates.</span>
-										<span class="time">1 year ago</span>
-									</a>
-								</li>
-							</ul>
-							<!-- /.notice-list -->
-							<a href="#" class="notice-read-more">See more messages <i class="fa fa-angle-down"></i></a>
-						</div>
-						<!-- /.content -->
-					</div>
-					<!-- /#message-popup -->
-				</div>
-				<!-- /.ico-item -->
 				<div class="ico-item">
 					<a href="#" class="ico-item fa fa-bell notice-alarm js__toggle_open" data-target="#notification-popup"></a>
 					<div id="notification-popup" class="notice-popup js__toggle" data-space="55">
@@ -167,79 +70,6 @@
 										<span class="time">10 min</span>
 									</a>
 								</li>
-								<li>
-									<a href="#">
-										<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
-										<span class="name">Anna William</span>
-										<span class="desc">Like your post: “Facebook Messenger”</span>
-										<span class="time">15 min</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="avatar bg-warning"><i class="fa fa-warning"></i></span>
-										<span class="name">Update Status</span>
-										<span class="desc">Failed to get available update data. To ensure the please contact us.</span>
-										<span class="time">30 min</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="avatar"><img src="http://placehold.it/128x128" alt=""></span>
-										<span class="name">Jennifer</span>
-										<span class="desc">Like your post: “Contact Form 7 Multi-Step”</span>
-										<span class="time">45 min</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
-										<span class="name">Michael Zenaty</span>
-										<span class="desc">Like your post: “Contact Form 7 Multi-Step”</span>
-										<span class="time">50 min</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
-										<span class="name">Simon</span>
-										<span class="desc">Like your post: “Facebook Messenger”</span>
-										<span class="time">1 hour</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="avatar bg-violet"><i class="fa fa-flag"></i></span>
-										<span class="name">Account Contact Change</span>
-										<span class="desc">A contact detail associated with your account has been changed.</span>
-										<span class="time">2 hours</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
-										<span class="name">Helen 987</span>
-										<span class="desc">Like your post: “Facebook Messenger”</span>
-										<span class="time">Yesterday</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="avatar"><img src="http://placehold.it/128x128" alt=""></span>
-										<span class="name">Denise Jenny</span>
-										<span class="desc">Like your post: “Contact Form 7 Multi-Step”</span>
-										<span class="time">Oct, 28</span>
-									</a>
-								</li>
-								<li>
-									<a href="#">
-										<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
-										<span class="name">Thomas William</span>
-										<span class="desc">Like your post: “Facebook Messenger”</span>
-										<span class="time">Oct, 27</span>
-									</a>
-								</li>
-							</ul>
 							<!-- /.notice-list -->
 							<a href="#" class="notice-read-more">See more messages <i class="fa fa-angle-down"></i></a>
 						</div>
@@ -270,3 +100,40 @@
 		<!-- /.container -->
 	</div>
 	<!-- /.header-top -->
+		<nav class="nav-horizontal">
+		<button type="button" class="menu-close hidden-on-desktop js__close_menu"><i class="fa fa-times"></i><span>CLOSE</span></button>
+		<div class="container">
+			
+			<ul class="menu">
+					<li class="current">
+						<a href="<?php echo base_url() ?>admin"><i class="ico fa fa-home"></i><span>Dashboard</span></a>
+					</li>
+					
+					<li class="has-sub">
+						<a href="<?php echo base_url() ?>admin/data_rumah"><i class="ico fa fa-bar-chart"></i><span>Data Rumah</span></a>
+					</li>
+					<li class="has-sub">
+						<a href="#"><i class="ico fa fa-th-large"></i><span>Blok Rumah</span></a>
+						<ul class="sub-menu single">
+							<li><a href="form-elements.html">A</a></li>
+							<li><a href="form-advanced.html">B</a></li>
+							<li><a href="form-fileupload.html">C</a></li>
+							<li><a href="form-validation.html">D</a></li>
+						</ul>
+						<!-- /.sub-menu single -->
+					</li>
+					<li class="has-sub">
+						<a href="#"><i class="ico fa fa-paper-plane"></i><span>Status Rumah</span></a>
+						<ul class="sub-menu single">
+							<li><a href="page-starter.html">Sudah Terjual</a></li>
+							<li><a href="page-login.html">Belum Terjual</a></li>
+						</ul>
+						<!-- /.sub-menu single -->
+					</li>
+			</ul>
+			<!-- /.menu -->
+		</div>
+		<!-- /.container -->
+	</nav>
+	<!-- /.nav-horizontal -->
+</header>
