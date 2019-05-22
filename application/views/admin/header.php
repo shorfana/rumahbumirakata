@@ -55,39 +55,15 @@
 					<form action="#" id="searchform-header" class="searchform js__toggle"><input type="search" placeholder="Search..." class="input-search"><button class="fa fa-search button-search" type="submit"></button></form>
 					<!-- /.searchform -->
 				</div>
-				<div class="ico-item">
-					<a href="#" class="ico-item fa fa-bell notice-alarm js__toggle_open" data-target="#notification-popup"></a>
-					<div id="notification-popup" class="notice-popup js__toggle" data-space="55">
-						<h2 class="popup-title">Your Notifications</h2>
-						<!-- /.popup-title -->
-						<div class="content">
-							<ul class="notice-list">
-								<li>
-									<a href="#">
-										<span class="avatar"><img src="http://placehold.it/80x80" alt=""></span>
-										<span class="name">John Doe</span>
-										<span class="desc">Like your post: “Contact Form 7 Multi-Step”</span>
-										<span class="time">10 min</span>
-									</a>
-								</li>
-							<!-- /.notice-list -->
-							<a href="#" class="notice-read-more">See more messages <i class="fa fa-angle-down"></i></a>
-						</div>
-						<!-- /.content -->
-					</div>
-					<!-- /#notification-popup -->
-				</div>
 				<!-- /.ico-item -->
 				<div class="ico-item">
 					<a href="#" class="ico-item fa fa-user js__toggle_open" data-target="#user-status"></a>
 					<div id="user-status" class="user-status js__toggle">
-						<a href="#" class="avatar"><img src="<?php echo base_url() ?>admin_template/http://placehold.it/80x80" alt=""><span class="status online"></span></a>
-						<h5 class="name"><a href="profile.html">Emily Stanley</a></h5>
+						<a href="<?php echo base_url() ?>login/logout" class="avatar"><img src="<?php echo base_url() ?>admin_template/http://placehold.it/80x80" alt=""><span class="status online"></span></a>
 						<h5 class="position">Administrator</h5>
 						<!-- /.name -->
 						<div class="control-items">
-							<div class="control-item"><a href="#" title="Settings"><i class="fa fa-gear"></i></a></div>
-							<div class="control-item"><a href="#" class="js__logout" title="Log out"><i class="fa fa-power-off"></i></a></div>
+							<a href="<?php echo base_url() ?>Login/logout">logout</a>
 						</div>
 						<!-- /.control-items -->
 					</div>
@@ -105,10 +81,6 @@
 		<div class="container">
 			
 			<ul class="menu">
-					<li class="current">
-						<a href="<?php echo base_url() ?>admin"><i class="ico fa fa-home"></i><span>Dashboard</span></a>
-					</li>
-					
 					<li class="has-sub">
 						<a href="<?php echo base_url() ?>admin/data_rumah"><i class="ico fa fa-bar-chart"></i><span>Data Rumah</span></a>
 					</li>
@@ -125,8 +97,8 @@
 					<li class="has-sub">
 						<a href="#"><i class="ico fa fa-paper-plane"></i><span>Status Rumah</span></a>
 						<ul class="sub-menu single">
-							<li><a href="page-starter.html">Sudah Terjual</a></li>
-							<li><a href="page-login.html">Belum Terjual</a></li>
+							<li><a href="<?php echo base_url() ?>admin/rumah_terjual">Sudah Terjual</a></li>
+							<li><a href="<?php echo base_url() ?>admin/rumah_belum_terjual">Belum Terjual</a></li>
 						</ul>
 						<!-- /.sub-menu single -->
 					</li>

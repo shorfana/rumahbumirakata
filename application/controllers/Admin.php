@@ -12,8 +12,9 @@ class Admin extends CI_Controller {
 
 	public function index()
 	{
+		$data['rumah'] = $this->Dbs->get_data()->result();
 		$this->load->view('admin/header.php');
-		$this->load->view('admin/index.php');
+		$this->load->view('admin/data_rumah.php',$data);
 		$this->load->view('admin/footer.php');
 	}
 
@@ -182,6 +183,20 @@ class Admin extends CI_Controller {
 		$this->load->view('admin/data_blok_D',$blokD);
 		$this->load->view('admin/footer');
 
+    }
+
+    public function rumah_terjual(){
+    	$terjual['rumah'] = $this->Dbs->terjual();
+    	$this->load->view('admin/header');
+		$this->load->view('admin/data_r_terjual',$terjual);
+		$this->load->view('admin/footer');
+    }
+
+    public function rumah_belum_terjual(){
+    	$bterjual['rumah'] = $this->Dbs->bterjual();
+    	$this->load->view('admin/header');
+		$this->load->view('admin/data_r_belumterjual',$bterjual);
+		$this->load->view('admin/footer');
     }
 
 }

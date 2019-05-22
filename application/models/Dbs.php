@@ -78,8 +78,23 @@ class Dbs extends CI_Model
 		$dml = "SELECT * FROM rumah WHERE blok = 'D'";
 		$query = $this->db->query($dml)->result();
 		return $query;
-	}		
+	}	
 
+	function terjual(){
+		$dml = "SELECT * FROM rumah WHERE status = 'Terjual'";
+		$query = $this->db->query($dml)->result();
+		return $query;
+	}	
+
+	function bterjual(){
+		$dml = "SELECT * FROM rumah WHERE status = 'Belum Terjual'";
+		$query = $this->db->query($dml)->result();
+		return $query;
+	}	
+
+	function cek_login($table,$where){
+		return $this->db->get_where($table,$where);
+	}
 
 }	 
  ?>
