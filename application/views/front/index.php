@@ -180,7 +180,7 @@
             <div class="hero-slider section">
 
                 <!--Hero Item start-->
-                <div class="hero-item large-height bg-image" data-bg="<?php echo base_url() ?>template/assets/images/hero/hero-3.jpg">
+                <div class="hero-item large-height bg-image" data-bg="<?php echo base_url() ?>template/assets/images/hero/image2.jpg">
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
@@ -188,7 +188,7 @@
                                 <!--Hero Content start-->
                                 <div class="hero-content-2 margin-top center">
 
-                                    <h2>Creative Design <br> Modern & Exclusive Furniture</h2>
+                                    <h2>Hunian Rumah Rakata  <br> Modern & Exclusive Furniture</h2>
                                         <a href="shop.html" class="btn">SHOP NOW</a>
 
                                 </div>
@@ -201,7 +201,7 @@
                 <!--Hero Item end-->
 
                 <!--Hero Item start-->
-                <div class="hero-item large-height bg-image" data-bg="assets/images/hero/hero-4.jpg">
+       <div class="hero-item large-height bg-image" data-bg="<?php echo base_url() ?>template/assets/images/hero/image.jpg">
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
@@ -209,7 +209,7 @@
                                 <!--Hero Content start-->
                                 <div class="hero-content-2 margin-top center">
 
-                                    <h2>Creative Design <br> Modern & Exclusive Furniture</h2>
+                                    <h2>Hunian Rumah Rakatasasa <br> Modern & Exclusive Furniture</h2>
                                         <a href="shop.html" class="btn">SHOP NOW</a>
 
                                 </div>
@@ -237,11 +237,11 @@
                         <div class="single-banner-item mb-30">
                             <div class="banner-image">
                                 <a href="shop.html">
-                                    <img src="<?php echo base_url() ?>template/./assets/images/banner/banner4.jpg" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/gambarbaru/front.jpg" alt="">
                                 </a>
                             </div>
-                            <div class="banner-content tr-right">
-                                <h3 class="title">Creative <br> Comfortable Chair</h3>
+                            <div class="banner-content tr-right ">
+                                <h3 class="title">family<br>Home minimalis</h3>
                                     <a href="shop.html">SHOP NOW</a>
                             </div>
                         </div>
@@ -252,10 +252,10 @@
                         <div class="single-banner-item mb-30">
                             <div class="banner-image">
                                 <a href="shop-left-sidebar.html">
-                                    <img src="<?php echo base_url() ?>template/./assets/images/banner/banner5.jpg" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/gambarbaru/front3.jpg" alt="">
                                 </a>
                             </div>
-                            <div class="banner-content tr-right">
+                            <div class="banner-content tr-right color-white">
                                 <h3 class="title">Stylish Divan <br> Latest Collection</h3>
                                     <a href="shop.html">SHOP NOW</a>
                             </div>
@@ -267,7 +267,7 @@
                         <div class="single-banner-item mb-30">
                             <div class="banner-image">
                                 <a href="shop.html">
-                                    <img src="<?php echo base_url() ?>template/./assets/images/banner/banner6.jpg" alt="">
+                                    <img src="<?php echo base_url() ?>template/./assets/images/gambarbaru/1.jpg" alt="">
                                 </a>
                             </div>
                             <div class="banner-content tl-left color-white">

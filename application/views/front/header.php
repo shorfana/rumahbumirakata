@@ -31,7 +31,7 @@
                         <div class="col-xl-3 col-lg-2 col-md-4 col-12">
                             <!--Logo Area Start-->
                             <div class="logo-area">
-                                <a href="index.html"><img src="<?php echo base_url() ?>template/./assets/images/logo.png" alt=""></a>
+                                <a href="index.html"><img src="<?php echo base_url() ?>template/./assets/images/logora.png" alt=""></a>
                             </div>
                             <!--Logo Area End-->
                         </div>
