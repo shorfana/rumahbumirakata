@@ -45,10 +45,18 @@
                                             <ul class="mega-menu four-column left-0">
                                                 <li><a href="#" class="item-link">Blok</a>
                                                     <ul>
-                                                        <li><a href="about.html">A</a></li>
-                                                        <li><a href="compare.html">B</a></li>
-                                                        <li><a href="cart.html">C</a></li>
-                                                        <li><a href="checkout.html">D</a></li>
+                                                        <li><a href="<?php echo base_url() ?>front/blok_A">A</a></li>
+                                                        <li><a href="<?php echo base_url() ?>front/blok_B">B</a></li>
+                                                        <li><a href="<?php echo base_url() ?>front/blok_C">C</a></li>
+                                                        <li><a href="<?php echo base_url() ?>front/blok_D">D</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#" class="item-link">Type</a>
+                                                    <ul>
+                                                        <li><a href="<?php echo base_url() ?>front/tipe21">Tipe 21</a></li>
+                                                        <li><a href="<?php echo base_url() ?>front/tipe36">Tipe 36</a></li>
+                                                        <li><a href="<?php echo base_url() ?>front/tipe45">Tipe 45</a></li>
+                                                        <li><a href="<?php echo base_url() ?>front/tipe54">Tipe 54</a></li>
                                                     </ul>
                                                 </li>
                                                 <li><a href="#" class="item-link">Status Rumah</a>

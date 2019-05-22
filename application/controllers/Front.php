@@ -3,21 +3,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Front extends CI_Controller {
 
-	/**
-	 * Index Page for this controller.
-	 *
-	 * Maps to the following URL
-	 * 		http://example.com/index.php/welcome
-	 *	- or -
-	 * 		http://example.com/index.php/welcome/index
-	 *	- or -
-	 * Since this controller is set as the default controller in
-	 * config/routes.php, it's displayed at http://example.com/
-	 *
-	 * So any other public methods not prefixed with an underscore will
-	 * map to /index.php/welcome/<method_name>
-	 * @see https://codeigniter.com/user_guide/general/urls.html
-	 */
+	public function __construct(){
+    	parent::__construct();
+    	//Codeigniter : Write Less Do More
+    	$this->load->model('Dbs');
+    	$this->load->helper('url');
+    }    
+
 	public function index()
 	{
 		$this->load->view('front/header.php');
@@ -25,9 +17,33 @@ class Front extends CI_Controller {
 		$this->load->view('front/footer.php');
 	}
 
-	public function halo()
+	public function blok_A()
 	{
-		echo "halo";
+		$data['rumah'] = $this->Dbs->blokA();
+		$this->load->view('front/header.php');
+		$this->load->view('front/rumah_BlokA',$data);
+		$this->load->view('front/footer.php');
+	}
+	public function blok_B()
+	{
+		$data['rumah'] = $this->Dbs->blokB();
+		$this->load->view('front/header.php');
+		$this->load->view('front/rumah_BlokB',$data);
+		$this->load->view('front/footer.php');
+	}
+	public function blok_C()
+	{
+		$data['rumah'] = $this->Dbs->blokC();
+		$this->load->view('front/header.php');
+		$this->load->view('front/rumah_BlokC',$data);
+		$this->load->view('front/footer.php');
+	}
+	public function blok_D()
+	{
+		$data['rumah'] = $this->Dbs->blokD();
+		$this->load->view('front/header.php');
+		$this->load->view('front/rumah_BlokD',$data);
+		$this->load->view('front/footer.php');
 	}
 
 
