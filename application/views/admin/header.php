@@ -20,7 +20,7 @@
 
 	<!-- Sweet Alert -->
 	<link rel="stylesheet" href="<?php echo base_url() ?>admin_template/assets/plugin/sweet-alert/sweetalert.css">
-	
+
 	<!-- Percent Circle -->
 	<link rel="stylesheet" href="<?php echo base_url() ?>admin_template/assets/plugin/percircle/css/percircle.css">
 
@@ -42,7 +42,7 @@
 	<div class="header-top">
 		<div class="container">
 			<div class="pull-left">
-				<a href="index.html" class="logo">RakataAdmin</a>
+				<a href="#" class="logo">RakataAdmin</a>
 			</div>
 			<!-- /.pull-left -->
 			<div class="pull-right">
@@ -79,7 +79,7 @@
 		<nav class="nav-horizontal">
 		<button type="button" class="menu-close hidden-on-desktop js__close_menu"><i class="fa fa-times"></i><span>CLOSE</span></button>
 		<div class="container">
-			
+
 			<ul class="menu">
 					<li class="has-sub">
 						<a href="<?php echo base_url() ?>admin/data_rumah"><i class="ico fa fa-bar-chart"></i><span>Data Rumah</span></a>

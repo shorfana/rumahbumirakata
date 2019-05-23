@@ -27,7 +27,7 @@
 								<th>Blok Rumah</th>
 								<th>Tipe Rumah</th>
 								<th>Status</th>
-							
+
 							</tr>
 						</thead>
 						<tbody>
@@ -35,11 +35,11 @@
 							<tr>
 									<td><?php echo $r->no_rumah?></td>
 									<td><?php echo $r->nama_rumah?></td>
-									<td><?php echo $r->harga_rumah?></td>
+									<td>Rp <?php echo $r->harga_rumah?></td>
 									<td><?php echo $r->blok?></td>
 									<td><?php echo $r->tipe?></td>
 									<td><?php echo $r->status?></td>
-									
+
 							</tr>
 							<?php endforeach ?>
 						</tbody>
@@ -48,8 +48,8 @@
 				<!-- /.box-content -->
 			</div>
 		</div>
-		<!-- /.row small-spacing -->		
-		
+		<!-- /.row small-spacing -->
+
 	</div>
 	<!-- /.main-content -->
 </div><!--/#wrapper -->

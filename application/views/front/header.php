@@ -61,8 +61,8 @@
                                                 </li>
                                                 <li><a href="#" class="item-link">Status Rumah</a>
                                                     <ul>
-                                                        <li><a href="shop-three-column.html">Terjual</a></li>
-                                                        <li><a href="shop-four-column.html">Belum Terjual</a></li>
+                                                        <li><a href="<?php echo base_url() ?>front/rumah_terjual">Terjual</a></li>
+                                                        <li><a href="<?php echo base_url() ?>front/rumah_belum_terjual">Belum Terjual</a></li>
                                                     </ul>
                                                 </li>
                                             </ul>
@@ -77,7 +77,7 @@
                             <div class="header-search-cart-area">
                                 <ul>
                                     <li class="currency-menu"><a href="<?php echo base_url() ?>login" title="login"><i class="flaticon-user"></i></a></li>
-                                   
+
                                         <!--Mini Cart Dropdown End-->
                                     </li>
                                 </ul>

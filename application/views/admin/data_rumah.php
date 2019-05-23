@@ -5,7 +5,7 @@
 				<div class="box-content">
 					<h4 class="box-title">Default</h4>
 					<!-- /.box-title -->
-					<li class="margin-bottom-10"><a href="<?php echo base_url() ?>admin/tambah_rumah"  type="button" class="btn btn-primary btn-bordered waves-effect waves-light">+ Rumah</a></li>
+					<a href="<?php echo base_url() ?>admin/tambah_rumah"  type="button" class="btn btn-primary btn-bordered waves-effect waves-light">+ Rumah</a>
 					<div class="dropdown js__drop_down">
 						<a href="#" class="dropdown-icon glyphicon glyphicon-option-vertical js__drop_down_button"></a>
 						<ul class="sub-menu">
@@ -35,7 +35,7 @@
 							<tr>
 									<td><?php echo $r->no_rumah?></td>
 									<td><?php echo $r->nama_rumah?></td>
-									<td><?php echo $r->harga_rumah?></td>
+									<td>Rp <?php echo $r->harga_rumah?></td>
 									<td><?php echo $r->blok?></td>
 									<td><?php echo $r->tipe?></td>
 									<td><?php echo $r->status?></td>
@@ -51,8 +51,8 @@
 				<!-- /.box-content -->
 			</div>
 		</div>
-		<!-- /.row small-spacing -->		
-		
+		<!-- /.row small-spacing -->
+
 	</div>
 	<!-- /.main-content -->
 </div><!--/#wrapper -->

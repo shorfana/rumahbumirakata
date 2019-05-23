@@ -1,6 +1,14 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+// Load library phpspreadsheet
+require('./excel/vendor/autoload.php');
+
+use PhpOffice\PhpSpreadsheet\Helper\Sample;
+use PhpOffice\PhpSpreadsheet\IOFactory;
+use PhpOffice\PhpSpreadsheet\Spreadsheet;
+// End load library phpspreadsheet
+
 class Admin extends CI_Controller {
 
 	public function __construct(){
@@ -8,7 +16,10 @@ class Admin extends CI_Controller {
     	//Codeigniter : Write Less Do More
     	$this->load->model('Dbs');
     	$this->load->helper('url');
-    }    
+			if ($this->session->userdata('status')!='admin') {
+            redirect(base_url()."Login");
+        }
+    }
 
 	public function index()
 	{
@@ -64,7 +75,7 @@ class Admin extends CI_Controller {
             echo "<script type='text/javascript'>alert('Berhasil Menambahkan Data Rumah'); document.location='http://localhost/rumahrakata/admin/data_rumah' </script>";
         }else{
             echo "<script type='text/javascript'>alert('Gagal Menambahkan Data Rumah'); document.location='http://localhost/rumahrakata/admin/data_rumah' </script>";
-            
+
         }
 
 	}
@@ -95,11 +106,10 @@ class Admin extends CI_Controller {
 
 	public function act_edtRumah(){
 		$gambar = $_FILES['gambar']['name'];
-		
+
 
         if ($gambar == null){
         	$data = array(
-				
 				'nama_rumah' => $this->input->post('nama_rumah',TRUE),
 				'harga_rumah' => $this->input->post('harga_rumah',TRUE),
 				'blok' => $this->input->post('blok',true),
@@ -121,7 +131,7 @@ class Admin extends CI_Controller {
 	            $gambar=$this->upload->data('file_name');
 	        }
         	$data = array(
-				
+
 				'nama_rumah' => $this->input->post('nama_rumah',TRUE),
 				'harga_rumah' => $this->input->post('harga_rumah',TRUE),
 				'gambar' => $gambar,
@@ -136,20 +146,20 @@ class Admin extends CI_Controller {
 			);
         }
 
-		
+
 		$id = $this->input->post('id',TRUE);
 		$sql=$this->Dbs->update($data,'rumah','id',$id);
 		if ($sql) {
             echo "<script type='text/javascript'>alert('Berhasil mengedit data Rumah'); document.location='http://localhost/rumahrakata/admin/data_rumah' </script>";
         }else{
-            echo "<script type='text/javascript'>alert('Gagal mengedit data Rumah'); document.location='http://localhost/rumahrakata/admin/data_rumah' </script>";   
+            echo "<script type='text/javascript'>alert('Gagal mengedit data Rumah'); document.location='http://localhost/rumahrakata/admin/data_rumah' </script>";
         }
 	}
 
     public function delete($id){
     	$where = array('id' => $id);
 		$this->Dbs->delete($where,'rumah');
-        echo "<script type='text/javascript'>alert('Berhasil Dihapus');  document.location='http://localhost/rumahrakata/admin/data_rumah' </script>";   
+        echo "<script type='text/javascript'>alert('Berhasil Dihapus');  document.location='http://localhost/rumahrakata/admin/data_rumah' </script>";
     }
 
 
@@ -198,5 +208,33 @@ class Admin extends CI_Controller {
 		$this->load->view('admin/data_r_belumterjual',$bterjual);
 		$this->load->view('admin/footer');
     }
+
+		// Export ke excel
+		public function excel(){
+			$data = array( 'title' => 'Data Rumah | Pt Rakata',
+							 'rumah' => $this->Dbs->terjual());
+		 			$this->load->view('admin/header');
+					$this->load->view('admin/excel',$data);
+					$this->load->view('admin/footer');
+		}
+
+		public function export_excel(){
+			$data = array( 'title' => 'Laporan Excel | Pt Rakata','format' => 'Laporan  Penjualan Rumah PT Rakata yang sudah Terjual',
+                'rumah' => $this->Dbs->terjual());
+      $this->load->view('admin/Laporan_view',$data);
+		}
+		public function excel2(){
+			$data = array( 'title' => 'Data Rumah | Pt Rakata',
+							 'rumah' => $this->Dbs->bterjual());
+					$this->load->view('admin/header');
+					$this->load->view('admin/excel_belumterjual',$data);
+					$this->load->view('admin/footer');
+		}
+
+		public function export_excel2(){
+			$data = array( 'title' => 'Laporan Excel | Pt Rakata','format' => 'Laporan  Penjualan Rumah PT Rakata yang Belum Terjual',
+								'rumah' => $this->Dbs->bterjual());
+			$this->load->view('admin/Laporan_view',$data);
+		}
 
 }

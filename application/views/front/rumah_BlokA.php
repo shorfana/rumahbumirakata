@@ -20,12 +20,13 @@
                                                                                 <span><font color="white"><?php echo $r->no_rumah ?></font></span>
                                                                             </div>
                                                                             <a href="#">
-                                                                                <img src="<?= base_url() ?>foto_rumah/<?php echo "$r->gambar"; ?>" class="img-fluid" alt="">
-                                                                                <img src="<?= base_url() ?>foto_rumah/<?php echo "$r->gambar"; ?>" class="img-fluid" alt="">
+                                                                                <img src="<?= base_url() ?>foto_rumah/<?php echo "$r->gambar"; ?>" style="width:420px; height:420px;" class="img-fluid" alt="">
+                                                                                <img src="<?= base_url() ?>foto_rumah/<?php echo "$r->gambar"; ?>" style="width:420px; height:420px;" class="img-fluid" alt="">
                                                                             </a>
                                                                         </div>
                                                                         <div class="product-content">
                                                                             <h3 class="title"> <a href="single-product.html"><?php echo $r->nama_rumah ?></a></h3>
+                                                                                <h5 class="title"><font size="2px"> <a href="#"><?php echo " Tipe "; echo $r->tipe ?></a></font></h5>
                                                                             <p class="product-price"><span class="discounted-price"><?php echo "Rp "; echo $r->harga_rumah ?></span>
                                                                         </div>
                                                                     </div>
@@ -39,9 +40,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>     
+                                    </div>
                                 </div>
-                             </div>   
+                             </div>
                         </div>
-                    </div>    
-
+                    </div>

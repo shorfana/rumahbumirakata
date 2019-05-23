@@ -18,7 +18,7 @@
 						</div>
 						<div class="form-group">
 							<label for="inputName" class="control-label">Gambar</label>
-							<input type="file" id="input-file-now" name="gambar" class="dropify">
+							<input type="file" id="input-file-now" name="gambar" class="dropify" required>
 						</div>
 						<div class="form-group">
 							<p>Blok Rumah</p>
@@ -29,7 +29,7 @@
 									<option value="C">C</option>
 									<option value="D">D</option>
 								</optgroup>
-								
+
 							</select>
 						</div>
 						<div class="form-group">
@@ -41,7 +41,7 @@
 									<option value="45">Tipe 45</option>
 									<option value="54">Tipe 54</option>
 								</optgroup>
-								
+
 							</select>
 						</div>
 						<div class="form-group">
@@ -59,7 +59,7 @@
 									<option value="Milik Sendiri">Milik Sendiri</option>
 									<option value="Sewa">Sewa</option>
 								</optgroup>
-								
+
 							</select>
 						</div>
 						<div class="form-group">
@@ -77,7 +77,7 @@
 									<option value="Terjual">Terjual</option>
 									<option value="Belum Terjual">Belum Terjual</option>
 								</optgroup>
-								
+
 							</select>
 						</div>
 						<div class="form-group">
@@ -90,4 +90,4 @@
 			<!-- /.col-xs-12 -->
 		</div>
 	</div>
-</div>		
+</div>

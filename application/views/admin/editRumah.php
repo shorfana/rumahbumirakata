@@ -32,7 +32,7 @@
 									<option value="C">C</option>
 									<option value="D">D</option>
 								</optgroup>
-								
+
 							</select>
 						</div>
 						<div class="form-group">
@@ -44,7 +44,7 @@
 									<option value="45">Tipe 45</option>
 									<option value="54">Tipe 54</option>
 								</optgroup>
-								
+
 							</select>
 						</div>
 						<div class="form-group">
@@ -62,16 +62,16 @@
 									<option value="Milik Sendiri">Milik Sendiri</option>
 									<option value="Sewa">Sewa</option>
 								</optgroup>
-								
+
 							</select>
 						</div>
 						<div class="form-group">
 							<label for="inputName" class="control-label">Sarana</label>
-							<textarea id="textarea" class="form-control" name="sarana"  maxlength="225" rows="2" placeholder="This textarea has a limit of 225 chars."></textarea>
+							<textarea id="textarea" class="form-control" name="sarana"  maxlength="225" value="<?php echo $sarana ?>" rows="2" placeholder="This textarea has a limit of 225 chars."></textarea>
 						</div>
 						<div class="form-group">
 							<label for="inputName" class="control-label">Deskripsi</label>
-							<textarea id="textarea" class="form-control" name="keterangan" maxlength="225" rows="2" placeholder="This textarea has a limit of 225 chars."></textarea>
+							<textarea id="textarea" class="form-control" name="keterangan" maxlength="225" rows="2" value="<?php echo $keterangan ?>" placeholder="This textarea has a limit of 225 chars."></textarea>
 						</div>
 						<div class="form-group">
 							<p>Status</p>
@@ -80,7 +80,7 @@
 									<option value="Terjual">Terjual</option>
 									<option value="Belum Terjual">Belum Terjual</option>
 								</optgroup>
-								
+
 							</select>
 						</div>
 						<div class="form-group">
@@ -93,4 +93,4 @@
 			<!-- /.col-xs-12 -->
 		</div>
 	</div>
-</div>		
+</div>
